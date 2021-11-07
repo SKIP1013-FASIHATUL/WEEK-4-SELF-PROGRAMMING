@@ -1,0 +1,16 @@
+package selfprogram;
+
+import java.util.Scanner;
+public class e1 {
+ public static void main(String[] args) {
+  Scanner sc=new Scanner(System.in);
+  int num,num1;
+  
+  System.out.println("input second number:");
+   num=sc.nextInt();
+  System.out.println("input second number:");
+   num1=sc.nextInt();
+  int result=num*num1;
+  System.out.println("the result:"+result);
+}
+}
