@@ -1,0 +1,20 @@
+package selfprogram;
+
+public class e2 {
+public static void main(String[] args) {
+	int num=(101+0)/3;
+	double num1=3.0e-6*10000000.1;
+	boolean s1= true&&true;
+	boolean s2=false&&true;
+	boolean s3=(false&&false)||(true&&true);
+	boolean s4=(false||false)&&(true&&true);
+	
+	System.out.println(num);
+	System.out.println(num1);
+	System.out.println(s1);
+	System.out.println(s2);
+	System.out.println(s3);
+	System.out.println(s4);
+	
+}
+}
